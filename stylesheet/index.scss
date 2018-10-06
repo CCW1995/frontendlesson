@@ -1,0 +1,46 @@
+﻿
+
+@import 'sidebar';
+@import 'variable';
+@import 'card';
+@import 'container';
+
+.whole {
+    font-family: 'Open Sans';
+    background: $white;
+     
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        padding-right:40px;
+ 
+
+        .header-icon {
+            margin-top: 42px;
+            margin-left: 40px;
+            width: 160px;
+            height: 38px;
+            font-size: $regular;
+            color: $grey;
+            font-weight: 600;
+        }
+
+        .header-button {
+            margin-left: auto;
+            margin-top: 40px;
+            margin-bottom: 21px;
+            border: none;
+            color: darkgrey;
+            background-color: white;
+            border-radius: 4px;
+            padding: 10px 12px 10px 12px;
+
+            &:hover
+            {
+                opacity: 0.6;
+                cursor: pointer;
+            }
+        }
+    }
+}

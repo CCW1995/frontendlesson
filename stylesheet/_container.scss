@@ -1,0 +1,28 @@
+﻿
+@import 'variable';
+
+.container {
+    font-size: $regular;
+    font-weight: 500;
+    color: $black-1;
+
+    .container-text-header {
+        margin-bottom: 40px;
+        font-size: $header;
+        font-weight: 400;
+    }
+
+    .container-text-link {
+        color:$sky-blue;
+        margin-bottom:40px;
+    }
+
+    .container-text-regular {
+        margin-bottom: 30px;
+    }
+
+    .container-text-regular2 {
+        margin-bottom: 30px;
+        font-size: $regular2;
+    }
+}
